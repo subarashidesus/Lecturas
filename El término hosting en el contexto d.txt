@@ -1,0 +1,4 @@
+El término "hosting" en el contexto de JavaScript se refiere al comportamiento de declaración de variables y funciones en un programa. Cuando declaras una variable o función en JavaScript, estas declaraciones son "elevadas" (hoisted) al principio de su contexto de ejcución.
+
+
+Aunque la variable `x` se utiliza antes de ser declarada, no arroja un error. Esto se debe a que las declaraciones de variables (pero no las asignaciones) se elevan al principio del contexto de ejecución. En tiempo de ejecución, `x` existe, pero aún no tiene valor asignado, por lo que su valor es `undefined`
